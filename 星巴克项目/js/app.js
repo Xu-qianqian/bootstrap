@@ -1,0 +1,25 @@
+$(function(){
+    $('#button').click(function(){
+        $(this).css(
+           {"display":"none"}  
+        )
+        $('#show').css(
+            {"display":"none"}
+        )
+         $('#example-navbar-collapse').css(
+            {"display":"block"}  
+        )
+    })
+    $('#img').click(function(){
+        $('#example-navbar-collapse').css(
+            {"display":"none"}  
+        )
+          $('#show').css(
+            {"display":"block"}
+        )
+         $('#button').css(
+            {"display":"block"}
+        )
+         
+    })
+})

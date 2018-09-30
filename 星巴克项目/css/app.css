@@ -1,0 +1,74 @@
+ *{margin:0 ;padding:0}
+ ul{list-style: none}
+  /*导航小屏*/
+.navbar-default .navbar-toggle{border:none}
+.navbar-default .navbar-toggle:hover{background: none}
+.navbar-default{   background-color: #fff; border:none; border-color:none }
+.img{ display:block ;width:50px;}
+.img a{width:100%}
+.left{display: flex}
+.left span{font-size: 1.6rem;margin:15px 10px 5px;display: inline-block;font-weight: 700;color: #000}
+/*.meanu{background: red}*/
+.icon{font-weight: 300;font-size: 3rem}
+.pic{ display:block ;width:100px;}
+.pic img{width:50%}
+.pic1{ display:block ;width:50px;position: absolute;right:0;top:10px}
+.pic1 img{width:100%}
+.list{margin:20px 40px}
+.list ul{list-style: none}
+.list ul li{padding-top:20px}
+.list li a{font-size:1.8rem;font-weight: 900;color: #000}
+.line{border-bottom: 1px solid #eee;margin-top:20px}
+
+
+/*导航大屏*/
+.right{display: flex}
+.fixed{position: fixed;top:0}
+.login{width:100px;display: block}
+.login img{width:40%;margin:20px 20px}
+.right span{font-size: 1.6rem;margin:30px 2px;display: inline-block;font-weight: 700;color: #000}
+.warpper{ max-width: 200px;width:100%;margin:200px 100px;box-sizing: border-box}
+.warpper span{font-size: 2.6rem;font-weight: 700}
+.warpper ul li a{font-size: 1.6rem;color:gray;margin-top:15px;display: block;font-weight: 500}
+.warpper .active{font-size: 1.6rem;color: #000;font-weight: 600;border-bottom:3px solid #00a862; max-width: 90px;line-height: 3rem}
+.content{background: #f7f7f7}
+.content #content1{background: #00a862 ;color:#fff}
+.content #content1 .caption{font-size: 1.4rem;font-weight: 700;opacity: 0.7;padding-top:20px}
+.content #content1  h1{font-size: 3.4rem;font-weight: 400}
+.content #content1  p{font-size: 1.6rem;font-weight: 400;margin-top:20px;line-height: 3rem;padding-left: 5px}
+.content #content1 .problem{padding:1rem 0;font-size: 1.4rem;font-weight: 400;color: #fff;border:0.1rem solid #fff;text-align: center;border-radius: 2rem;margin-bottom:20px}
+.content #content1 .xing{margin-top:7rem}
+.first {font-size: 1.4rem;font-weight: 700;color: #AA7A4A;margin-top:30px}
+/*@media(max-width:992px){.first{margin-top:-20px}}*/
+.col{color: #fff}
+.col1{color: #000}
+.one h3{color: #fff;font-weight: 700;margin-bottom:24px}
+.one :nth-child(3){margin-top:40px;max-width: 100%;box-sizing: border-box}
+.one :nth-child(4){margin-top:80px}
+.two{background: #2ab05f}
+.two:nth-child(2){padding-top:40px}
+.two :nth-child(3){margin-top:30px}
+.two p{color: #fff;font-size: 1.6rem;margin:13px 0 30px 0}
+.bag{margin-left: -30px;margin-top:-5px}
+.three{background: #edebe9}
+.three span{font-size: 1.6rem;font-weight: 400;opacity: 0.56;line-height: 2rem;margin-top:40px;display: block}
+.button{background: none;border:1px solid #00A862;border-radius: 48px;box-sizing: border-box; color: #00A862;display:inline-block;font-weight: 500;outline: none;overflow: hidden;padding:6px 18px;margin-top:30px}
+.three .house{margin-top: 44px}
+#larger{max-width: 768px; box-sizing: border-box;}
+#larger .div{width:236px;height: 300px; box-shadow: 0px 10px 10px #888888;margin-left: 10px}
+#larger img{width:236px;height: 168px;margin-left: -15px}
+#larger span{width:236px;height: 68px;display: block}
+#larger  .row1{margin-top:30px}
+#larger1{max-width: 768px; box-sizing: border-box;}
+#larger1 .div{width:326px;height: 300px; box-shadow: 0px 10px 10px #888888;margin-left: 10px}
+#larger1 img{width:326px;height: 168px;margin-left: -15px}
+#larger1 span{width:236px;height: 68px;display: block}
+#larger1  .row1{margin-top:30px}
+
+#larger .div:hover{transform: translateY(-10px);transition: 1s}
+.button1{background: none;border:1px solid #00A862;border-radius: 48px;box-sizing: border-box; color: #00A862;display:block;font-weight: 500;outline: none;overflow: hidden;padding:6px 5px;margin-top:30px;margin-bottom:30px }
+#contant2 h2{font-size: 2.2rem;font-weight: 400;margin-top:30px}
+#contant2 p{font-size: 1.4rem;font-weight: 700;opacity: 0.56;margin-top:30px}
+
+@media (max-width:992px){#larger{display: none};#larger1{display: block} .one{margin-top:120px};.two{margin-top:120px};.three{margin-top:120px}}
+@media (min-width:992px){#larger1{display: none}}
